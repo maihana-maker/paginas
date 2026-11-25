@@ -158,6 +158,8 @@ section{padding-block:clamp(56px,9vw,104px)}
 .price small{font-family:var(--body);font-size:20px;font-weight:600;margin-right:4px;vertical-align:28px}
 .ticket-price .btn{width:100%}
 .ticket-price p{font-size:14px;color:var(--muted)}
+.ticket-price .from{font-size:17px;color:var(--muted);margin-bottom:-10px;font-variant-numeric:lining-nums}
+.ticket-price .from s{text-decoration-thickness:2px}
 .raffle{margin-top:24px;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center;color:#DCE7E2;font-size:16px;max-width:720px}
 .raffle b{color:var(--on-pine)}
 .raffle-tag{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--crayon);color:var(--ink);padding:6px 12px;border-radius:999px;white-space:nowrap}
@@ -360,6 +362,7 @@ footer{padding-block:32px;font-size:14px;color:var(--muted);text-align:center}
         </div>
         <div class="ticket-price">
           <span class="when">12/12 · 15h · ao vivo</span>
+          <span class="from">De <s>R$ 147,00</s> por</span>
           <div class="price"><small>R$</small>47</div>
           <a class="btn" href="#inscricao" data-checkout="">Garantir minha vaga</a>
           <p>Pagamento pela Hotmart. Os dados para a nota fiscal são pedidos no checkout.</p>
